@@ -1,0 +1,21 @@
+.movie-details-picture {
+    width: 100%;
+}
+
+.movie-details-title {
+    font-size: 1.4rem;
+    float: left;
+}
+
+.movie-details-rating {
+    float: left;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 26px 5px 0 15px;
+}
+
+.movie-details-description, .movie-details-director {
+    padding: 5px 0;
+    font-size: 1.1rem;
+}
+

@@ -1,0 +1,103 @@
+/* colors 
+#BF3445
+#FF4455
+*/
+
+table {
+    margin-top: 20px;
+    width: 100%;
+    padding: 5px;
+    border-collapse: collapse;
+    overflow-wrap: break-word;
+    margin-bottom: 60px;
+}
+
+th {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #9D1D58;
+}
+
+td {
+    padding: 0 5px;
+}
+
+textarea {
+    font-family: 'Roboto';
+}
+
+form {
+    margin: 30px 0;
+}
+
+.movie-table-rows {
+    height: 50px;
+    border-bottom: 1px solid #dbdbdb;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+
+.movie-table-search-wrapper {
+    margin-top: 30px;
+    font-size: 0.8rem;
+}
+
+.movie-table-search-icon {
+    color: #9D1D58;
+    margin-bottom: -5px;
+}
+
+#movie-table-search-text{
+    font-size: 0.9rem;
+}
+
+
+.movie-table-search {
+    width: 250px;
+    height: 30px;
+    font-size: 0.8rem;
+    border: 2px solid #9D1D58;
+    outline: 0;
+   
+}
+
+.movie-delete-icon {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    color: #9D1D58;
+    opacity: 0.8;
+}
+
+.movie-delete-icon:hover {
+    color: #9D1D58;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.movie-info-icon, .movie-edit-icon {
+    color: #9D1D58;
+    opacity: 0.8;
+}
+
+.movie-info-icon:hover, .movie-edit-icon:hover {
+    color: #9D1D58;
+    opacity: 1;
+    transition: opacity 0.1s;
+}
+
+.movie-td-info-icon, .movie-td-edit-icon, .movie-td-delete-icon {
+    width: 45px;
+    align-content: center;
+}
+
+.movie-td-rating {
+    width: 45px;
+    align-content: center;
+    font-weight: 600;
+    color: #9D1D58;
+}
+
+
+
